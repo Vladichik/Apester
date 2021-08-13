@@ -33,7 +33,7 @@ const animations = {
 class Character extends Component {
   state = { animate: false };
 
-  animatePunch(animationName, duration, hp) {
+  animatePunch(animationName, duration) {
     const { name } = this.props;
     const {
       [name]: {

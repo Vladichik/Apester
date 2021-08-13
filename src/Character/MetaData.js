@@ -15,7 +15,6 @@ class MetaData extends Component {
             width: '500px',
             height: '20px',
             border: 'solid 2px white',
-            overflow: 'hidden'
         };
         const nameStyle = {
             position: 'absolute',
